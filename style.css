@@ -1,13 +1,13 @@
-/*------TIPOGRAFIA-----*/
 *{
-    padding: 0px;
-    margin: 0px;
+    font-family: sans-serif, cursive;
+    font-weight: 700;
 }
 
-.contact-form{
+.contect-form{
+    font-size: 25px;
+}
+
+.contact-form__h2{
     font-size: 2em;
-    font-family: sans-serif;
-    line-height: 2;
-    font-weight: 700;
-    color: green;
+    color: brown;
 }

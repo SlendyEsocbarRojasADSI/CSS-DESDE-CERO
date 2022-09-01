@@ -1,31 +1,15 @@
-#id-element{
-    color: brown;
-}
-
-[rancio="sii"]{
-    color: blueviolet;
-}
-
-/*------SELECTORES-------*/
-
-h2{
+.color-red{
     color: blue;
 }
 
-h2 p{
-    color: aquamarine;
-}
-
-h2 b{
+[rancio="color-violet"]{
     color: violet;
 }
 
-h2 b span{
-    color: green;
+#color-violet{
+    color: violet;
 }
 
-/*-----PSEUDO CLASES----*/
-
-button:hover{
-    color: brown;
+h1{
+    color: red !important
 }

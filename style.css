@@ -7,7 +7,7 @@
 h2{
     background-color: brown;
     display: inline-block;
-    padding: 30px 50px;
-    height: 100px;
-    width: 100px;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
 }

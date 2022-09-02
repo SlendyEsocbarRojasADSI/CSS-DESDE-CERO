@@ -16,6 +16,9 @@ div{
 
 .caja2{
     background: blue;
+    position: relative;
+    bottom: -60px;
+    right: 100px;
 }
 
 .caja3{

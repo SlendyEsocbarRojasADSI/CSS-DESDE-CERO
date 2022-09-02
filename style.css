@@ -5,19 +5,23 @@
 }
 
 div{
-    width: 200px;
-    height: 200px;
-    background: yellow;
-    display: inline-block;
-    
-}
-.caja4{
-    outline: 5px solid orange;
+    width: 120px;
+    height: 120px;
+    display: block;
 }
 
-/*.caja2{
-    width: 200px;
-    height: 200px;
+.caja1{
+    background: yellow;
+}
+
+.caja2{
     background: blue;
-    margin: auto;
-}*/
+}
+
+.caja3{
+    background: red;
+}
+
+.caja4{
+    background: fuchsia;
+}

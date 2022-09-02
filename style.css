@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif, cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: 700;
 }
 
@@ -8,6 +8,6 @@
 }
 
 .contact-form__h2{
-    font-size: 2em;
+    font-size: 4em;
     color: brown;
 }

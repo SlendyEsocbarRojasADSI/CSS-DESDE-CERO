@@ -1,16 +1,10 @@
 *{
     font-family: 'Dancing Script', cursive;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 30px;
 }
 
 h2{
-    display: inline;
-    width: 190px;
-    padding: 20px;
-}
-
-p{
-    height: 190px;
-    width: 190px;
+    background-color: brown;
+    display: inline-block;
 }

@@ -1,13 +1,16 @@
 *{
     font-family: 'Dancing Script', cursive;
-    font-weight: 700;
+    font-weight: 300;
+    font-size: 30px;
 }
 
-.contect-form{
-    font-size: 25px;
+h2{
+    display: inline;
+    width: 190px;
+    padding: 20px;
 }
 
-.contact-form__h2{
-    font-size: 4em;
-    color: brown;
+p{
+    height: 190px;
+    width: 190px;
 }

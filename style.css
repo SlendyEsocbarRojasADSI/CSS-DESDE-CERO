@@ -4,13 +4,11 @@
     font-size: 40px;
 }
 
-body{
-    padding-top: 100px;
-}
+
 
 .caja-fixed{
-    margin: -90px;
-    background: red;
-    position: fixed;
+    background: brown;
+    position: sticky;
     opacity: .4;
+    top: -20px;
 }

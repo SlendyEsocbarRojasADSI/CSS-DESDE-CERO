@@ -4,17 +4,65 @@
     font-size: 20px;
 }
 
-.cont{
-    margin: auto;
-    margin-top: 50px;
-    border: 2px solid black;
-    background: salmon;
-    width: 500px;
+.texto{
     padding: 20px;
 }
 
-.cont img{
-    float: right;
-    width: 250px;
-    margin-right: 18px;
+.texto::first-line{
+    color: hotpink;
+    font-size: 2rem;
+}
+
+.texto2{
+    padding: 20px;
+}
+
+.texto2::first-letter{
+    color: hotpink;
+    font-size: 2rem;
+}
+
+form{
+    margin: 100px auto;
+    display: block;
+    background-color: #555;
+    padding: 100px;
+    width: 50%;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+}
+
+input::selection{
+    background-color: palevioletred;
+    font-size: 30px;
+}
+
+p{
+    padding: 6px;
+    width: 100%;
+}
+
+p::selection{
+    color: turquoise;
+    background-color: palevioletred;
+    font-size: 40px;
+}
+
+b{
+    padding: 6px;
+    width: 100%;
+}
+
+b::before{
+    content: "i am like";
+    color: hotpink;
+}
+
+b::after{
+    content: "me gusta el anime";
+    color: blueviolet;
+    background-color: bisque;
 }

@@ -1,68 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Dosis:wght@400;600&display=swap');
+
 *{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 100;
     font-size: 20px;
 }
 
-.texto{
+.caja1{
+    height: 200px;
+    width: 200px;
+    font-size: 2em;
+    background: pink;
+    transition: background 1s, height 1s, width 1s;
+}
+
+.caja1:hover{
+    height: 300px;
+    width: 300px;
+    background: palevioletred;
+}
+
+.caja2{
     padding: 20px;
+    background-color: pink;
+    color: #000;
 }
 
-.texto::first-line{
-    color: hotpink;
-    font-size: 2rem;
-}
-
-.texto2{
+.caja2:hover{
     padding: 20px;
+    background: palevioletred;
+    color: #fff;
 }
 
-.texto2::first-letter{
-    color: hotpink;
-    font-size: 2rem;
+a:link{
+    color: palevioletred;
+    background-color: powderblue;
 }
 
-form{
-    margin: 100px auto;
+a:visited{
+    color: violet;
+    background-color: rgb(27, 27, 27);
     display: block;
-    background-color: #555;
-    padding: 100px;
-    width: 50%;
 }
 
-input{
-    padding: 6px;
-    width: 100%;
+.caja3{
+    width: 250px;
+    height: 250px;
+    background: plum;
+    margin: 25px;
+    transition: all 1s;
 }
 
-input::selection{
-    background-color: palevioletred;
-    font-size: 30px;
+.caja3:active{
+    background: paleturquoise;
+    width: 600px;
 }
 
-p{
-    padding: 6px;
-    width: 100%;
+.caja4{
+    margin: 25px;
+    background: pink;
+    transition: background 0.4s, padding 0.4s;
 }
 
-p::selection{
-    color: turquoise;
-    background-color: palevioletred;
-    font-size: 40px;
-}
-
-b{
-    padding: 6px;
-    width: 100%;
-}
-
-b::before{
-    content: "i am like";
-    color: hotpink;
-}
-
-b::after{
-    content: "me gusta el anime";
-    color: blueviolet;
-    background-color: bisque;
+.caja4:focus{
+    background: palevioletred;
+    padding: 20px;
 }

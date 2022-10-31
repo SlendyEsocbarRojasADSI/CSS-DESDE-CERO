@@ -3,61 +3,31 @@
 *{
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
-    font-size: 20px;
 }
 
-body{
-    background-color: rgb(35, 35, 35);
-}
-
-.contenedor div{
+div{
+    width: 49%;
     display: inline-block;
+    padding: 20px;
+    background: #ddd;
 }
 
-.caja{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid palevioletred;
-    background-color: pink;
-    cursor: pointer;
-}
-
-.caja:active{
-    cursor: progress;
-    background-color: darksalmon;
+h1{
+    font-size: 26px;
 }
 
 .caja1{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid palevioletred;
-    background: palevioletred;
+    background: #bbb;
 }
 
-.caja2{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid pink;
-    background: rgb(194, 190, 192);
-    opacity: 0.5;
+@media only screen and(max-width: 700px){
+
+div{
+    display: block;
+    width: 100%;
 }
 
-.caja3{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid pink;
-    background: rgba(194, 0, 74, .2);
-    opacity: 1;
+h1{
+    font-size: 20px !important;
 }
-
-.caja4{
-    margin: 25px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid pink;
-    background: #fff;
 }

@@ -7,20 +7,15 @@
 }
 
 .caja{
-    display: flex;
-    height: 250px;
-    flex-wrap: wrap;
-}
-
-.caja div{
-    flex: 1;
-    display: flex;
-    margin: 4px;
-    border: 1px solid red;
-    min-width: 120px;
+    margin: 25px;
+    width: 200px;
+    height: 300px;
 }
 
 .caja img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
     object-fit: cover;
-    width: 400px;
+    object-position: -4em;
 }

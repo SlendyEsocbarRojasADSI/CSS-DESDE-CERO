@@ -6,63 +6,21 @@
     font-size: 20px;
 }
 
-.caja1{
-    height: 200px;
-    width: 200px;
-    font-size: 2em;
-    background: pink;
-    transition: background 1s, height 1s, width 1s;
-}
-
-.caja1:hover{
-    height: 300px;
-    width: 300px;
-    background: palevioletred;
-}
-
-.caja2{
-    padding: 20px;
-    background-color: pink;
-    color: #000;
-}
-
-.caja2:hover{
-    padding: 20px;
-    background: palevioletred;
-    color: #fff;
-}
-
-a:link{
-    color: palevioletred;
-    background-color: powderblue;
-}
-
-a:visited{
-    color: violet;
-    background-color: rgb(27, 27, 27);
-    display: block;
-}
-
-.caja3{
-    width: 250px;
+.caja{
+    display: flex;
     height: 250px;
-    background: plum;
-    margin: 25px;
-    transition: all 1s;
+    flex-wrap: wrap;
 }
 
-.caja3:active{
-    background: paleturquoise;
-    width: 600px;
+.caja div{
+    flex: 1;
+    display: flex;
+    margin: 4px;
+    border: 1px solid red;
+    min-width: 120px;
 }
 
-.caja4{
-    margin: 25px;
-    background: pink;
-    transition: background 0.4s, padding 0.4s;
-}
-
-.caja4:focus{
-    background: palevioletred;
-    padding: 20px;
+.caja img{
+    object-fit: cover;
+    width: 400px;
 }

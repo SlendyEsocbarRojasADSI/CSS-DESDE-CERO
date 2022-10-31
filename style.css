@@ -10,12 +10,11 @@
     margin: 25px;
     width: 200px;
     height: 300px;
+    border: 5px solid palevioletred;
+    background-color: pink;
+    cursor: pointer;
 }
 
-.caja img{
-    height: 100%;
-    width: 100%;
-    border: 2px solid red;
-    object-fit: cover;
-    object-position: -4em;
+.caja:active{
+    cursor: progress;
 }

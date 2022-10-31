@@ -6,6 +6,14 @@
     font-size: 20px;
 }
 
+body{
+    background-color: rgb(35, 35, 35);
+}
+
+.contenedor div{
+    display: inline-block;
+}
+
 .caja{
     margin: 25px;
     width: 200px;
@@ -17,4 +25,39 @@
 
 .caja:active{
     cursor: progress;
+    background-color: darksalmon;
+}
+
+.caja1{
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+    border: 5px solid palevioletred;
+    background: palevioletred;
+}
+
+.caja2{
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+    border: 5px solid pink;
+    background: rgb(194, 190, 192);
+    opacity: 0.5;
+}
+
+.caja3{
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+    border: 5px solid pink;
+    background: rgba(194, 0, 74, .2);
+    opacity: 1;
+}
+
+.caja4{
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+    border: 5px solid pink;
+    background: #fff;
 }
